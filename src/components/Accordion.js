@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 const Accordion = ({ items }) => {
-    const [activeIndex, setActiveIndex] = useState(0);
+    const [activeIndex, setActiveIndex] = useState(null);
 
     const handleTitleClick = (index) => {
         setActiveIndex(index)
@@ -11,7 +11,7 @@ const Accordion = ({ items }) => {
         const active = index === activeIndex ? 'active' : '';
         return (
             <React.Fragment key={index}>
-                <div  className={ `title ${active}` }
+                <div  className={`title ${active}`}
                       onClick={() => handleTitleClick(index)}
                 >
                     <i className="dropdown icon"></i>
