@@ -30,7 +30,6 @@ export default function Convert( { language, text } ) {
                 q: debouncedText,
                 target: language.value,
                 key: GOOGLE_TRANSLATE_KEY
-                
             }
         }
         );
