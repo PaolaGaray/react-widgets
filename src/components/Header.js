@@ -5,6 +5,9 @@ export default function Header() {
     return (
         <div className="ui secondary pointing menu">
             <Link href='/' className="item">
+                Image Search
+            </Link>
+            <Link href='/accordion' className="item">
                 Accordion
             </Link>
             <Link href='/search' className="item">

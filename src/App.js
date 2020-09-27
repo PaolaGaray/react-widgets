@@ -5,6 +5,7 @@ import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
+import ImageSearch from './components/ImageSearch';
 
 
 const items = [
@@ -45,7 +46,12 @@ export default () => {
   return (
       <div> 
         <Header />
+
         <Route path='/'>
+            <ImageSearch />
+        </Route>
+
+        <Route path='/accordion'>
             <Accordion items={items}/>
         </Route>
 
