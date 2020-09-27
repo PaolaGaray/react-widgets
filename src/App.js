@@ -5,7 +5,7 @@ import Dropdown from './components/Dropdown';
 import Translate from './components/Translate';
 import Route from './components/Route';
 import Header from './components/Header';
-import ImageSearch from './components/ImageSearch';
+import ImageSearch from './components/ImageSearch/ImageSearch';
 
 
 const items = [
