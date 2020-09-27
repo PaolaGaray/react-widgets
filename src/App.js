@@ -10,16 +10,16 @@ import ImageSearch from './components/ImageSearch/ImageSearch';
 
 const items = [
   {
-    title: 'What is React?',
-    content: 'React is a front end javascript framework'
+    title: 'How does NASA organize a party?',
+    content: 'They planet'
   }, 
   {
-    title: 'Why you use React?',
-    content: 'React is a front end javascript framework'
+    title: 'Why aren’t koalas actual bears?',
+    content: 'The don’t meet the koalafications.'
   }, 
   {
-    title: 'How do you use React?',
-    content: 'You use React by creating components'
+    title: 'pie or cake?',
+    content: 'Yes!'
   }
 ];
 

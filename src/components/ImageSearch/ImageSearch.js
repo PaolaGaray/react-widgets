@@ -9,12 +9,18 @@ class App extends  React.Component {
     images: []
   };
 
+  componentDidMount = () => {
+    this.handleSearchSubmit('watermelon')
+  }
+
   handleSearchSubmit = async (query) =>  {
     const response = await unsplash.get('/search/photos', {
       params: { query: query },
     });
     this.setState({images: response.data.results});
   }
+
+
 
   render() {
     return (

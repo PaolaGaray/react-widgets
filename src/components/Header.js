@@ -8,10 +8,10 @@ export default function Header() {
                 Image Search
             </Link>
             <Link href='/accordion' className="item">
-                Accordion
+                Jokes Accordion
             </Link>
             <Link href='/search' className="item">
-                Search
+                Wikipedia Search
             </Link>
             <Link href='/dropdown' className="item">
                 Dropdown
