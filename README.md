@@ -1,4 +1,4 @@
-This is an application that includes multiple components using Hooks in React. The goal is to practice and building my knowlegde on that. What I implemented is an app that has a couple of different widgets put toguether as a little reusable components. These are four separate pages that don't have a direct connection to each other:
+This is an application that includes multiple components using Hooks in React. The goal is to practice and building my knowlegde on that. What I implemented is an app that has a couple of different widgets put toguether as a little reusable components. These are five separate pages that don't have a direct connection to each other:
  
 - An Accordion component: it is using setState().
 
